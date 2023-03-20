@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li{
+        @apply p-4 text-white hover:text-slate-400
+    }
+    button{
+        @apply p-4 text-white hover:text-slate-400
+    }
+}
